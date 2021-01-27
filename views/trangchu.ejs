@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Demo</title>
+      <!-- Gọi thư viện socket.io -->
+      <script src="/socket.io/socket.io.js"></script>
+      <!-- Gọi thư viện jquery -->
+      <script src="jquery-3.5.1.js"></script>
+      <script src="xuly.js"></script>
+      <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+      <div id="wrapper">
+            <div id="information">
+                  <input type="text" id="txtHoTen" placeholder="Họ tên"> <!-- placeholder: tiêu đề nhập -->
+                  <input type="text" id="txtEmail" placeholder="Email">
+                  <input type="text" id="txtSoDT" placeholder="Điện thoại">
+                  <input type="button" id="btnRegister" value="Send">
+            </div>
+
+            <div id="listUsers">
+                  <h3>Danh sách học viên</h3>
+                  <div id="ds"></div>
+            </div>
+
+      </div>
+</body>
+</html>

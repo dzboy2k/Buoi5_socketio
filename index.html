@@ -1,0 +1,47 @@
+<!-- Tạo project 
+      - Tạo thư mục
+      - Mở cmd: 
+            cd "đường dẫn thư mục"
+            npm init
+            package name: (buổi-5) minigame
+            author: KhoaPham
+            Is this OK? (yes) yes
+            // Cài đặt các gói package cần thiết cho project
+            npm install express ejs socket.io
+            + express -> Hỗ trợ chạy trên nền web
+            + ejs -> template engine, hỗ trợ hiển thị dữ liệu từ server Nodejs
+            + socket.io -> truyền tải dữ liệu giữa người dùng với nhau ngay lập tức,
+            thời gian thực
+-->
+<!-- Cài đặt Atom (Viết code) 
+      - Thêm thư mục: File -> Add Project Folder...
+      - Split Right: Tạo tab phải màn hình
+      - Split Down: Tạo tab dưới màn hình
+-->
+<!-- Chạy project
+      - Mở cmd: node "tên file".js
+-->
+<!-- Đưa ứng dụng lên Heroku
+      - Các service có sẵn: Heroku, AWS (Amazon), DigitalOcean
+      - Vào website Heroku -> Đăng kí tài khoản (Sign up) -> Đăng nhập (Log in)
+      - Tạo ứng dụng: New -> Create new app:
+            + App name: tên-app (khoaphamonline)
+            + Choose a region: United States
+            -> Create app
+      - Xem thông tin: Settings -> Heroku git URL/Domains 
+      - Deploy ứng dụng lên server: 
+            + Heroku Git -> Heroku CLI -> Download
+            + Mở cmd:
+                  (Đăng nhập heroku)
+                  heroku login 
+                  
+                  (Tạo Git repository)
+                  cd my-project 
+                  git init
+                  heroku git:remote -a khoaphamonline
+
+                  (Deploy ứng dụng)
+                  git add .
+                  git commit -am "make it better"
+                  git push heroku master
+-->
